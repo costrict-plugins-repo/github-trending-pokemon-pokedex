@@ -1,0 +1,30 @@
+{
+  "name": "labat-pokedex-marketplace",
+  "owner": {
+    "name": "Alex Labat",
+    "email": "SNLabat@gmail.com"
+  },
+  "metadata": {
+    "description": "Pokemon Pokedex plugins for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "pokemon-pokedex",
+      "source": {
+        "source": "github",
+        "repo": "SNLabat/Pokemon-Pokedex-Plugin"
+      },
+      "description": "Complete Pokemon Pokedex for Claude Code. Covers all 1,025 Pokemon across Generations 1-9 with base stats, abilities, moves, type matchups, and species data.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Alex Labat",
+        "email": "SNLabat@gmail.com"
+      },
+      "homepage": "https://github.com/SNLabat/Pokemon-Pokedex-Plugin",
+      "repository": "https://github.com/SNLabat/Pokemon-Pokedex-Plugin",
+      "license": "MIT",
+      "keywords": ["pokemon", "pokedex", "gaming", "data", "lookup"],
+      "category": "reference"
+    }
+  ]
+}
